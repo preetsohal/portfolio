@@ -4,7 +4,15 @@
 html {
   font: 16px 'Indie Flower';
 }
-
+.picture{
+  width: 200;
+    border-radius: 50%;
+    display: block;
+    position: inherit;
+    left: 520;
+    top: 160;
+    z-index: 2;
+}
 h1 {
   font-size: 2.5em;
 }
@@ -212,7 +220,7 @@ section {
 
 /*About*/
 .sec-about {
-  background: #cd5c5c;
+  background: rgba(170, 193, 212, 0.96);
   color: #fff;
 }
 
@@ -223,15 +231,17 @@ section {
 
 /*Portfolio*/
 .sec-portfolio {
-  background: #ffeb3b;
+  background: #DAD6AC;
   overflow: hidden;
 }
 
 .sec-portfolio .col-big {
-  float: left;
-  position: relative;
-  width: 25%;
-  height: 20vw;
+  float: initial;
+    position: relative;
+    width: 30%;
+    height: 20vw;
+    margin: 1px;
+    background-color: #633C3C;
 }
 
 .sec-portfolio img {
