@@ -10,7 +10,7 @@ html {
     display: block;
     position: inherit;
     left: 520;
-    top: 200;
+    top: 10;
     z-index: 3;
 }
 h1 {
@@ -196,7 +196,7 @@ section {
 .sec-home {
   float: left;
   position: relative;
-  background: #fff5ee;
+  background: #D4CCCA;
   color: #e9967a;
   opacity: 1;
 }
@@ -220,12 +220,12 @@ section {
 
 /*About*/
 .sec-about {
-  background: rgba(170, 193, 212, 0.96);
+  background: #B1B7B1;
   color: #fff;
 }
 
 .sec-about .content {
-  height: 55%;
+  height: 85%;
   text-align: center;
 }
 
@@ -258,7 +258,7 @@ section {
 
 /*Contact*/
 .sec-contact {
-  background: #f5deb3;
+  background: #BDB39F;
 }
 
 .soc-media {
