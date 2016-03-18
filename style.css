@@ -7,7 +7,9 @@
   .picture {
     width: 200;
     border-radius: 50%;
-
+  }
+  .aboutme {
+    max-width: 100%;
   }
   h1 {
     font-size: 3.0em;
@@ -248,8 +250,8 @@
     margin-left: .75em;
   }
   .soc-media a {
-    display: block;
-    color: #aaa;
+    /*display: block;*/
+    color: #0F3661;
     font-size: 3em;
     text-decoration: none;
     -webkit-transition: color 0.5s ease;
