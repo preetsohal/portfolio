@@ -1,8 +1,18 @@
 /*Typography*/
+@media (min-width:400px){
+
 html {
   font: 16px 'Indie Flower';
 }
-
+.picture{
+  width: 200;
+    border-radius: 50%;
+    display: block;
+    position: inherit;
+    left: 520;
+    top: 10;
+    z-index: 3;
+}
 h1 {
   font-size: 2.5em;
 }
@@ -186,7 +196,7 @@ section {
 .sec-home {
   float: left;
   position: relative;
-  background: #fff5ee;
+  background: #D4CCCA;
   color: #e9967a;
   opacity: 1;
 }
@@ -210,26 +220,28 @@ section {
 
 /*About*/
 .sec-about {
-  background: #cd5c5c;
+  background: #B1B7B1;
   color: #fff;
 }
 
 .sec-about .content {
-  height: 55%;
+  height: 85%;
   text-align: center;
 }
 
 /*Portfolio*/
 .sec-portfolio {
-  background: #ffeb3b;
+  background: #DAD6AC;
   overflow: hidden;
 }
 
 .sec-portfolio .col-big {
-  float: left;
-  position: relative;
-  width: 25%;
-  height: 20vw;
+  float: initial;
+    position: relative;
+    width: 30%;
+    height: 20vw;
+    margin: 1px;
+    background-color: #633C3C;
 }
 
 .sec-portfolio img {
@@ -246,7 +258,7 @@ section {
 
 /*Contact*/
 .sec-contact {
-  background: #f5deb3;
+  background: #BDB39F;
 }
 
 .soc-media {
@@ -296,4 +308,5 @@ section {
 }
 .soc-media a:active {
   color: #666;
+}
 }
