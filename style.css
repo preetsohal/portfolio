@@ -1,5 +1,5 @@
 /*Typography*/
-@media only screen and (max-width: 500px)
+@media (min-width:400px){
 
 html {
   font: 16px 'Indie Flower';
@@ -308,4 +308,5 @@ section {
 }
 .soc-media a:active {
   color: #666;
+}
 }
