@@ -1,17 +1,5 @@
 (function(module) {
 
-  // $('#more').click(function(e) {
-  //   e.stopPropagation();
-  //   $('p').css({
-  //     'height': 'auto'
-  //   })
-  // });
-  //
-  // $(document).click(function() {
-  //   $('p').css({
-  //     'height': '40px'
-  //   })
-  // });
 
 function setTeasers(){
   $('.aboutme  *:nth-of-type(n+2)').hide();
