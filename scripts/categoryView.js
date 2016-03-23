@@ -1,4 +1,4 @@
-var articleView = {};
+var categoryView = {};
 
   categoryView.populateFilters = function() {
     $('category').each(function() {
