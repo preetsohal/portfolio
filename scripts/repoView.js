@@ -3,10 +3,10 @@
 
   // DONE: Private methods declared here live only within the scope of the wrapping IIFE.
   var ui = function() {
-    var $sec-portfolio = $('#sec-portfolio'); // Best practice: Cache the DOM query if it's used more than once.
+    var $secPortfolio = $('#sec-portfolio'); // Best practice: Cache the DOM query if it's used more than once.
 
-    $sec-portfolio.find('ul').empty();
-    $sec-portfolio.show().siblings().hide();
+    $secPortfolio.find('ul').empty();
+    $secPortfolio.show().siblings().hide();
   };
 
 
