@@ -5,15 +5,15 @@
 
 
   repos.requestRepos = function(callback) {
-    $.get('github.com/users/preetsohal/repos' +
+    $.get('github/users/preetsohal/repos' +
             '?per_page=100' +
             '&sort=updated')
-.done(function(data,massage,xhr){
+.done(function(data,message,xhr){
   repos.all = data;
 
-})
+});
 
-    .done(callback);
+    // .done(callback);
   };
   // DONE: Model method that filters the full collection for repos with a particular attribute.
   // You could use this to filter all repos that have a non-zero `forks_count`, `stargazers_count`, or `watchers_count`.
