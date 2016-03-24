@@ -1,69 +1,71 @@
 <html>
+
 <head>
+  <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="styles/icons.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-  <body>
-<div class="wrapper">
-  <input type="checkbox" name="nav-check" id="nav-check" />
-  <section class="sec-about" id="sec-about">
-    <div class="content">
-      <h1>who am i?</h1>
-      <p>my name is Gurpreet Singh.</p>
-      <p>i am web and apllication developer.</p>
-      <p>I love coding.</p>
-      <p>i built solid expertise in html, css and javascript.</p>
-      <p>i focus on creating clean and unique design.</p>
-    </div>
-  </section>
-  <section class="sec-portfolio" id="sec-portfolio">
-    <div class="row">
-      <div class="col-big"><img src="coming soon" alt="Project snapshot" /></div> //add some portfolio images.
-      <div class="col-big"><img src="coming soon" alt="Project snapshot" /></div> //add some portfolio images.
-    </div>
-    <div class="row">
-      <div class="col-big"><img src="coming soon" alt=" snapshot" /></div> //add some portfolio images.
-      <div class="col-big"><img src="coming soon" alt=" snapshot" /></div> //add some portfolio images.
-    </div>
-  </section>
-  <section class="sec-contact" id="sec-contact">
-    <ul class="soc-media">
-      <li><a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a></li> // add facebook link
-      <li><a href="https://www.twitter.com" class="fa fa-envelope"></a></li>  // add twitter link
-    </ul>
-  </section>
-  <section class="sec-home" id="sec-home">
-    <div class="content">
-      <h1>Hi and welcome on my portfolio.</h1>
-      <h2><a href="#sec-about">who</a> am i?</h2>
-      <h2><a href="#sec-portfolio">what</a> i do?</h2>
-      <h2><a href="#sec-contact">where</a> to find me?</h2>
-    </div>
-  </section>
-  <section id="catergory" class="tab-content">
-    <div>
-      <ul id="filters">
+<body>
+  <div class="wrapper">
+    <input type="checkbox" name="nav-check" id="nav-check" />
+    <section class="sec-about" id="sec-about">
+      <div class="content">
+        <h1>who am i?</h1>
+        <div class="aboutme">
+          <p id="more">my name is Gurpreet Singh.i have Experiene in object-oriented programming; developing, testing and debugging code; designing interfaces, and administering systems and networks.</p>
+          <p>i am web and apllication developer.i can quickly learn and master new technologies. I love working in both team and self-directed settings.</p>
+          <p>I love coding.I am Fast learner, hard worker and team player who is proficient in an array of scripting languages and multimedia Web tools.</p>
+          <p>i built solid expertise in html, css, javascript and jQuery.</p>
+          <p>i focus on creating clean and unique design.</p>
+          <a href="#" class="readmore"> Read More</a>
+        </div>
+      </div>
+    </section>
+    <section class="sec-portfolio" id="sec-portfolio">
+      <div class="row">
+        <div class="col-big"><img src="coming soon" alt="Project snapshot" /></div> //add some portfolio images.
+        <div class="col-big"><img src="coming soon" alt="Project snapshot" /></div> //add some portfolio images.
+      </div>
+      <div class="row">
+        <div class="col-big"><img src="coming soon" alt=" snapshot" /></div> //add some portfolio images.
+        <div class="col-big"><img src="coming soon" alt=" snapshot" /></div> //add some portfolio images.
+      </div>
+    </section>
+    <section class="sec-contact" id="sec-contact">
+      <ul class="soc-media">
         <li>
-          <select id="project-filter">
-            <option value="">-- Filter by project --</option>
-          </select>
+          <a href="https://mobile.twitter.com/gurpsohal/tweets" class="fa fa-twitter" target="_blank"><span class="icon-twitter"></span></a>
+          <a href="https://github.com/preetsohal" class="fa fa-github" target="_blank"><span class ="icon-github"></span></a>
+          <a href="mailto:hotmail.com/preetsohal" class ="Email" target ="blank"><span class ="icon-mail2"></span></a>
         </li>
-        <li>
-          <select id="Contact-filter">
-            <option value="">-- Filter by Contact --</option>
-          </select>
-        </li>
+
       </ul>
-    </div>
-  </section>
-  <nav role="navigation">
-    <label for="nav-check"></label>
-    <ul class="navigation">
-      <li><a href="#sec-home">home</a></li>
-      <li><a href="#sec-about">about</a></li>
-      <li><a href="#sec-portfolio">portfolio</a></li>
-      <li><a href="#sec-contact">contact</a></li>
-    </ul>
-  </nav>
-</div>
+    </section>
+    <section class="sec-home" id="sec-home">
+      <img class="picture" src="IMG_4078.JPG" />
+
+      <div class="content">
+        <h1>Hi and welcome on my portfolio.</h1>
+        <h2><a href="#sec-about">who</a> am i?</h2>
+        <h2><a href="#sec-portfolio">what</a> i do?</h2>
+        <h2><a href="#sec-contact">where</a> to find me?</h2>
+      </div>
+    </section>
+    <nav role="navigation">
+      <label for="nav-check"></label>
+      <ul class="navigation">
+        <li><a href="#sec-home">home</a></li>
+        <li><a href="#sec-about">about</a></li>
+        <li><a href="#sec-portfolio">portfolio</a></li>
+        <li><a href="#sec-contact">contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <script src="jquery-1.12.1.min.js"></script>
+  <script src="script.js"></script>
+
+<!-- >>>>>>> 276b26145ff9f81db2aa04b910a5939ab0f6eee2 -->
 </body>
+
 </html>
