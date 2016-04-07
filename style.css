@@ -1,6 +1,6 @@
 /*Typography*/
 
-@media (min-width:400px) {
+@media (min-width:100px) {
   html {
     font: 16px 'Indie Flower';
   }
